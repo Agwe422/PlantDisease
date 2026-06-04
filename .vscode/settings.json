@@ -1,0 +1,5 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv310\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": false,
+  "jupyter.raw_kernel_startup_timeout": 180000
+}

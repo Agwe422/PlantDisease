@@ -1,0 +1,17 @@
+# Python venv
+.venv/
+.venv310/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (downloaded from HuggingFace, ~2.2 GB — never commit)
+data/
+*.zip
+
+# Model checkpoints / outputs
+*.pt
+*.pth
+outputs/

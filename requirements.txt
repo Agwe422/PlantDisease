@@ -1,0 +1,22 @@
+# PlantDisease — Python dependencies
+#
+# Tested with Python 3.12. PyTorch does not yet publish wheels for 3.14,
+# so use a 3.12 environment (see README / venv instructions).
+#
+# CPU-only torch is the default below. For an NVIDIA GPU later, install the
+# CUDA build instead, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+torch
+torchvision
+huggingface_hub
+scikit-learn
+matplotlib
+numpy
+pillow
+tqdm
+
+# Notebook execution
+jupyter
+nbconvert
+ipykernel
